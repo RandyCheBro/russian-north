@@ -8,7 +8,6 @@
   flex-direction: column;
   /* width: 64%; */
   width: clamp(264px, 4.45rem + 60.25vw, 1228px);
-  height: 100vh;
   background: radial-gradient(
     84.74% 100.78% at 99.72% 49.91%,
     #2b2c33 0%,
@@ -175,17 +174,15 @@
 @media screen and (max-width: 400px) {
   .page {
     background-position: 96% 0%;
-    min-height: fit-content;
-    height: 100%;
     overflow-y: hidden;
   }
 
   .content {
+    overflow-y: hidden;
     clip-path: none;
     padding-top: 21.7vw;
     padding-bottom: 19vw;
     padding-left: 3.3vw;
-    height: fit-content;
   }
 
   .content__img-ptica {

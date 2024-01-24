@@ -175,7 +175,8 @@
 @media screen and (max-width: 400px) {
   .page {
     background-position: 96% 0%;
-    height: fit-content;
+    height: 100vh;
+    overflow-y: hidden;
   }
 
   .content {

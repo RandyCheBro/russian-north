@@ -27,6 +27,7 @@ body {
   margin: 0;
   color: #fff;
   width: 100vw;
+  height: 100vh;
   background: white;
 }
 
@@ -41,7 +42,7 @@ main {
   background-size: cover;
   max-width: 1920px;
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   overflow: hidden;
 }
 

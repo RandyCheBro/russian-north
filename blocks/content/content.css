@@ -8,6 +8,7 @@
   flex-direction: column;
   /* width: 64%; */
   width: clamp(264px, 4.45rem + 60.25vw, 1228px);
+  height: 100vh;
   background: radial-gradient(
     84.74% 100.78% at 99.72% 49.91%,
     #2b2c33 0%,
@@ -100,6 +101,7 @@
   text-transform: uppercase;
   line-height: normal;
   transition: all 0.3s linear;
+  cursor: pointer;
 }
 
 .photo__button:hover{
@@ -214,16 +216,10 @@
   }
 
   .content__text {
+    opacity: 0.8;
     overflow: auto;
     max-height: 39.6vw;
-    background: linear-gradient(
-      180deg,
-      #fff 81.75%,
-      rgba(255, 255, 255, 0) 100%
-    );
     -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
   }
 
   .content__logo-container {

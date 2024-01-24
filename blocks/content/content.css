@@ -99,6 +99,11 @@
   letter-spacing: clamp(0.037rem, 0.035rem + 0.01vw, 0.05rem);
   text-transform: uppercase;
   line-height: normal;
+  transition: all 0.3s linear;
+}
+
+.photo__button:hover{
+  opacity: 0.8;
 }
 
 .photo__text {

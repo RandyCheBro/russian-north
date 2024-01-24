@@ -104,7 +104,7 @@
   cursor: pointer;
 }
 
-.photo__button:hover{
+.photo__button:hover {
   opacity: 0.8;
 }
 
@@ -175,13 +175,15 @@
 @media screen and (max-width: 400px) {
   .page {
     background-position: 96% 0%;
+    height: fit-content;
   }
 
   .content {
     clip-path: none;
     padding-top: 21.7vw;
-    padding-bottom: 7vw;
+    padding-bottom: 19vw;
     padding-left: 3.3vw;
+    height: fit-content;
   }
 
   .content__img-ptica {

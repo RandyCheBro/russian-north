@@ -26,9 +26,13 @@ body {
   justify-content: center;
   margin: 0;
   color: #fff;
+  background: radial-gradient(
+    84.74% 100.78% at 99.72% 49.91%,
+    #2b2c33 0%,
+    #1b1c23 100%
+  );
   width: 100vw;
   height: 100vh;
-  background: white;
 }
 
 /**

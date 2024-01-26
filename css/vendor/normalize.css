@@ -41,7 +41,7 @@ body {
 main {
   position: relative;
   display: flex;
-  background: url("/resources/images/background-winter.png") no-repeat right;
+  background: url("../../resources/images/background-winter.png") no-repeat right;
   max-width: 1920px;
   width: 100%;
   min-height: 100vh;

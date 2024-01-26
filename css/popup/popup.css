@@ -24,7 +24,7 @@
 }
 
 .popup__close {
-  background-image: url(/resources/images/svg/CloseIcon.svg);
+  background-image: url("../../resources/images/svg/CloseIcon.svg");
   width: 16px;
   height: 16px;
   background-color: rgba(0, 0, 0, 0);
@@ -96,14 +96,14 @@
   background: #131416;
 
 .daw-right{
-  background-image: url("/resources/images/svg/daw-right-white.svg");
+  background-image: url("../../resources/images/svg/daw-right-white.svg");
 }
 }
 
 .daw-right {
   width: 5px;
   height: 10px;
-  background-image: url("/resources/images/svg/daw-right.svg");
+  background-image: url("../../resources/images/svg/daw-right.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
